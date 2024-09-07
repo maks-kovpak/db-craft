@@ -2,6 +2,15 @@
   "name": "db-craft",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Maksym Kovpak",
+    "email": "kovpak.maksym@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maks-kovpak/db-craft.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,18 +19,18 @@
   },
   "dependencies": {
     "next": "14.2.8",
-    "react": "^18",
-    "react-dom": "^18"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
+    "@types/node": "^20.16.5",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
     "eslint-config-next": "14.2.8",
-    "postcss": "^8",
-    "prettier": "3.3.3",
+    "postcss": "^8.4.45",
+    "prettier": "^3.3.3",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "typescript": "^5.5.0"
   }
 }
